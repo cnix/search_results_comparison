@@ -1,0 +1,121 @@
+* {
+   font-family: helvetica;
+   font-size: 14px;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  width: 892px;
+  margin: auto;
+  color: #555;
+}
+
+b,a {
+  font-weight: 100 !important;
+}
+
+a {
+  color: #068481;
+}
+
+ul {
+ width: 400px;
+ float: left;
+ margin: 20px;
+ background: #eaeaea;
+ -webkit-border-radius: 10px;
+ border: solid 3px #fff;
+}
+
+ul:hover {
+  border: solid 3px #888;
+}
+
+ul li {
+ margin: 10px;
+ list-style: none;
+ height: 160px;
+}
+
+h1 {
+ text-align: center;
+ margin: 40px;
+ width: 800px;
+ font-size: 40px;
+ font-weight: bold;
+ color: #555;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+button.picker {
+  display: block;
+  margin: 20px auto;
+  padding: 4px;
+  color: #555;
+  font-size: 30px;
+  border: solid 3px #888;
+  -webkit-border-radius: 4px;
+  background: #79A888;
+}
+
+button.picker:hover {
+  border: solid 3px #999;
+  color: #666;
+  cursor: pointer;
+}
+
+div#select {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+div#select label {
+  font-size: 18px;
+}
+
+div#select input[type=text] {
+  width: 550px;
+  font-size: 18px;
+  border: solid 3px #888;
+  color: #555;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 3px;
+}
+
+div#select input[type=image] {
+  position: relative;
+  top: 10px;
+}
+
+div#results {
+  clear: both;
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+  display: none;
+  text-align: center;
+}
+
+div#results h2 {
+  color: #ff8888;
+  font-size: 24px;
+  margin: auto;
+}
+
+div#results ol {
+  width: 100px;
+  margin: 20px auto;
+}
+
+div#results ol li {
+  font-size: 20px;
+  margin: 3px 0px;
+}
