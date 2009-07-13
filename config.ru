@@ -6,5 +6,5 @@
 #   :env => :production
 # )
 # 
-require 'dolores_labs'
+require 'search_results_comparison'
 run Sinatra.application
