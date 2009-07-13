@@ -4,7 +4,7 @@ require 'hpricot'
 require 'json'
 require 'ruby-web-search'
 
-BOSS_API_KEY = "MMTIwY_V34EgeoFS6BRqhBjIKd7M8ai5.WMOzg5gtp3j4JRMQWEXCDI8qYJlfdHSCbrNS6o-"
+BOSS_API_KEY = "key goes here"
 
 layout 'layout.erb'
 
